@@ -25,7 +25,7 @@ body {
     font-family: 'Major Mono Display', monospace;
 }
 .app-content h2 {
-    margin: 1em 0 3em 0;
+    margin: 1.5em 0 3em 0;
     font-family: 'Aldrich', sans-serif;
 }
 button {
@@ -41,4 +41,31 @@ button {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
     font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 422px) {
+    .app-content h1 {
+      font-size: 2.5rem !important;
+    }
+    .app-content h2 {
+        font-size: 1.7rem !important
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .app-content h1 {
+      font-size: 2rem !important;
+    }
+    .app-content h2 {
+        font-size: 1.4rem !important
+    }
+}
+
+@media only screen and (max-width: 301px) {
+    .app-content h1 {
+      font-size: 1.8rem !important;
+    }
+    .app-content h2 {
+        font-size: 1.3rem !important
+    }
 }
