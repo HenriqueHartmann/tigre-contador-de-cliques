@@ -10,4 +10,9 @@ function addClick() {
     changeCounter();
 }
 
+function resetCounter() {
+    count = 0;
+    changeCounter();
+}
+
 changeCounter();
