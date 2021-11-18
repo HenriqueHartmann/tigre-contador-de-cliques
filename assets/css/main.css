@@ -4,13 +4,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
 
-.app-container {
+body {
+    background-color: #f1f1f1 !important;
+}
+.container {
+    min-height: 100vh;
+    display: table;
+}
+.app-content {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+.app-content {
     text-align: center;    
 }
-.app-container h1 {
+.app-content h1 {
     font-family: 'Major Mono Display', monospace;
 }
-.app-container h2 {
+.app-content h2 {
+    margin: 1em 0 3em 0;
     font-family: 'Aldrich', sans-serif;
 }
 button {
